@@ -3,3 +3,8 @@ export PATH=~/.dotfiles/bin:/Users/veduci:/usr/local/bin:/usr/bin:/bin:/usr/sbin
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 for n in `ls ~/.zshrc.d/*.zsh`; do source ~/.zshrc.d/$n; done;
+
+if which ruby >/dev/null && which gem >/dev/null; then
+    PATH="$(ruby -r rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+fi
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
