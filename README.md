@@ -1,6 +1,8 @@
 # desktop-devops
 ## salama:
 ### klobasa
+1. salama
+2. klobasa
 Colons can be used to align columns.
 
 | Tables        | Are           | Cool  |
