@@ -20,4 +20,6 @@ Colons can be used to align columns.
 4. And another item.
 
 ```sequence
-Client->Server: Client Hallo
+alice->Bob: Client Hallo
+Note right of Bob: Bob things
+
