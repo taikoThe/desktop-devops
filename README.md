@@ -1,3 +1,4 @@
 # desktop-devops
-## salama:
+## salama
 ### klobasa
+
