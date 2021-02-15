@@ -22,4 +22,4 @@ Colons can be used to align columns.
 ```sequence
 alice->Bob: Client Hallo
 Note right of Bob: Bob things
-
+```
